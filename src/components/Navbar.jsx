@@ -4,8 +4,9 @@ import { BsPerson } from 'react-icons/bs';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdClose } from 'react-icons/md';
 import { IoSearchOutline } from 'react-icons/io5';
-import Logo from '../../assets/logo.png';
-export default function Navbar() {
+import Logo from '../assets/logo.png';
+
+export const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const html = document.querySelector('html');
   html.addEventListener('click', (e) => setIsNavOpen(false));
@@ -58,7 +59,7 @@ export default function Navbar() {
       </div>
     </Container>
   );
-}
+};
 const Container = styled.nav`
   display: flex;
   justify-content: space-between;
