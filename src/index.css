@@ -1,5 +1,6 @@
 :root {
   --primary-color: #ff715e;
+  --button-color: #285138;
   --card-grey: #f8f8f8;
   --primary-text: #2c2c2c;
   --secondary-text: #a79997;
@@ -19,8 +20,8 @@ html {
 }
 
 body {
-  margin: 0 5rem;
-  margin-top: 2rem;
+  margin: 0 3rem;
+  margin-top: 4rem;
   display: flex;
   place-items: center;
 }

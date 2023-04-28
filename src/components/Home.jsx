@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import HeroImage from '../assets/hero.png';
+import HeroImage from '../assets/hero.jpg';
 import Button from './Button';
 
 export const Home = () => {
@@ -8,12 +8,16 @@ export const Home = () => {
   return (
     <Section>
       <div className="background">
-        <img src={HeroImage} alt="Hero" />
+        <img src={HeroImage} alt="Hero" style={{ opacity: 0.5 }} />
       </div>
       <div className="content">
         <div className="info">
-          <h1>It's Time To</h1>
-          <h1>Explore The World</h1>
+          <h1 style={{ letterSpacing: '-7px', color: 'var( --card-grey)' }}>
+            Time To
+          </h1>
+          <h1 style={{ paddingBottom: '2rem', color: 'var(--primary-color)' }}>
+            Explore.
+          </h1>
           <Button text="Plan Your Trip" />
         </div>
         <div className="planner">
@@ -63,7 +67,6 @@ const Section = styled.section`
       margin-left: 8rem;
       h1 {
         font-size: 5rem;
-        margin-bottom: 2rem;
       }
     }
     .planner {
