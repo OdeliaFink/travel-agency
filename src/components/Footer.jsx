@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import logo from '../assets/logo.png';
 import Button from './Button';
 
-export const Footer = () => {
+export default function Footer() {
   const quickLinks = [
     'About Us',
     'Destinations',
@@ -73,7 +73,7 @@ export const Footer = () => {
       </div>
     </Container>
   );
-};
+}
 
 const Container = styled.footer`
   .upper-footer {
