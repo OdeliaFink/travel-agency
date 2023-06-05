@@ -30,19 +30,16 @@ export const Navbar = () => {
       <div className={`links ${isNavOpen ? 'show' : ''}`}>
         <ul>
           <li>
-            <a href="#services">Home</a>
+            <a href="#destination"> destinations</a>
           </li>
           <li>
-            <a href="#destination"> Destination</a>
+            <a href="#offer">offer</a>
           </li>
           <li>
-            <a href="#offer">Offer</a>
+            <a href="#tour">tour</a>
           </li>
           <li>
-            <a href="#tour">Tour</a>
-          </li>
-          <li>
-            <a href="#blog">Blog</a>
+            <a href="#blog">blog</a>
           </li>
         </ul>
       </div>
@@ -51,7 +48,7 @@ export const Navbar = () => {
           <span>
             <BsPerson />
           </span>
-          <span>My Account</span>
+          <span>my account</span>
         </div>
         <div className="search">
           <IoSearchOutline />

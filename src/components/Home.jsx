@@ -18,7 +18,7 @@ export const Home = () => {
           <h1 style={{ paddingBottom: '2rem', color: 'var(--primary-color)' }}>
             Explore.
           </h1>
-          <Button text="Plan Your Trip" />
+          <Button text="plan your trip" />
         </div>
         <div className="planner">
           <form>
@@ -42,7 +42,7 @@ export const Home = () => {
               />
             </div>
             <div className="row">
-              <Button text="Discover More" />
+              <Button text="discover more" />
             </div>
           </form>
         </div>
