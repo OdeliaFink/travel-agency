@@ -8,7 +8,7 @@ export const Home = () => {
   return (
     <Section>
       <div className="background">
-        <img src={HeroImage} alt="Hero" style={{ opacity: 0.5 }} />
+        <img src={HeroImage} alt="Hero" style={{ opacity: 0.8 }} />
       </div>
       <div className="content">
         <div className="info">
@@ -56,7 +56,7 @@ const Section = styled.section`
   position: relative;
   .background {
     img {
-      height: 90vh;
+      height: 80vh;
       width: 100%;
     }
   }

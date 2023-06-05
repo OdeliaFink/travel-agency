@@ -1,7 +1,7 @@
 import React from 'react';
 import Destinations from './components/Destination';
 import DownloadApp from './components/DownloadApp';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 import { Home } from './components/Home';
 import { Navbar } from './components/Navbar';
 import Offer from './components/Offer';
@@ -22,7 +22,7 @@ export default function App() {
       <Tours />
       <Testimonial />
       <DownloadApp />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
