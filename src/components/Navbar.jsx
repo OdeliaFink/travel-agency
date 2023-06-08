@@ -45,10 +45,10 @@ export const Navbar = () => {
       </div>
       <div className="account-info">
         <div className="account">
-          <span>
+          {/* <span>
             <BsPerson />
-          </span>
-          <span>my account</span>
+          </span> */}
+          <span>account</span>
         </div>
         <div className="search">
           <IoSearchOutline />
@@ -89,9 +89,11 @@ const Container = styled.nav`
   }
   .account-info {
     display: flex;
+    align-items: center;
     gap: 2rem;
     .account {
       display: flex;
+      padding-bottom: 7px;
       gap: 0.5rem;
       cursor: pointer;
     }
