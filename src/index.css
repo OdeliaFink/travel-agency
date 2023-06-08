@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #ff715e;
+  --primary-color: #020202;
   --button-color: #285138;
   --card-grey: #f8f8f8;
   --primary-text: #2c2c2c;
@@ -11,6 +11,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 html {
