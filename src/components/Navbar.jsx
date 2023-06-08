@@ -44,12 +44,12 @@ export const Navbar = () => {
         </ul>
       </div>
       <div className="account-info">
-        <div className="account">
-          {/* <span>
+        {/* <div className="account">
+          <span>
             <BsPerson />
-          </span> */}
+          </span>
           <span>account</span>
-        </div>
+        </div> */}
         <div className="search">
           <IoSearchOutline />
         </div>
