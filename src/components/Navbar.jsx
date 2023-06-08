@@ -79,6 +79,8 @@ const Container = styled.nav`
           text-decoration: none;
           color: black;
           cursor: pointer;
+          font-family: Helvetica, sans-serif;
+          font-family: 100;
           transition: var(--default-transition);
           &:hover {
             color: var(--primary-color);
