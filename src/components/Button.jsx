@@ -5,11 +5,11 @@ export default function Button({ text }) {
 }
 
 const Btn = styled.button`
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   background-color: white;
   border-radius: 1rem;
   border: 1px solid black;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   color: black;
   cursor: pointer;
   transition: background-color 0.4s ease, color 0.4s ease;
