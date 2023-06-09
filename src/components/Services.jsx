@@ -8,22 +8,22 @@ export default function Services() {
   const data = [
     {
       image: service1,
-      title: 'choose Destination',
+      title: 'choose destination',
       description: 'Lorem Ipsum is simply dummy text of the printing setting',
     },
     {
       image: service2,
-      title: 'explore the Place',
+      title: 'explore the place',
       description: 'Lorem Ipsum is simply dummy text of the printing setting',
     },
     {
       image: service3,
-      title: 'start Your Journey',
+      title: 'start your journey',
       description: 'Lorem Ipsum is simply dummy text of the printing setting',
     },
     {
       image: service4,
-      title: "let's Enjoy",
+      title: "let's enjoy",
       description: 'Lorem Ipsum is simply dummy text of the printing setting',
     },
   ];
@@ -61,9 +61,13 @@ const Section = styled.section`
       gap: 1rem;
       h3 {
         color: var(--primary-text);
+        font-family: Helvetica, sans-serif;
+        font-family: 100;
       }
       p {
         color: var(--secondary-text);
+        font-family: Helvetica, sans-serif;
+        font-family: 100;
       }
       img {
         height: 128px;
