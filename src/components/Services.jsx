@@ -8,22 +8,22 @@ export default function Services() {
   const data = [
     {
       image: service1,
-      title: 'Choose Destination',
+      title: 'choose Destination',
       description: 'Lorem Ipsum is simply dummy text of the printing setting',
     },
     {
       image: service2,
-      title: 'Explore the Place',
+      title: 'explore the Place',
       description: 'Lorem Ipsum is simply dummy text of the printing setting',
     },
     {
       image: service3,
-      title: 'Start Your Journey',
+      title: 'start Your Journey',
       description: 'Lorem Ipsum is simply dummy text of the printing setting',
     },
     {
       image: service4,
-      title: "Let's Enjoy",
+      title: "let's Enjoy",
       description: 'Lorem Ipsum is simply dummy text of the printing setting',
     },
   ];

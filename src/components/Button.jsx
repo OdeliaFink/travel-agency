@@ -9,7 +9,7 @@ const Btn = styled.button`
   background-color: white;
   border-radius: 1rem;
   border: 1px solid black;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: black;
   cursor: pointer;
   transition: background-color 0.4s ease, color 0.4s ease;
