@@ -99,6 +99,7 @@ const Section = styled.section`
           margin-left: 1rem;
           font-size: 1.5rem;
           color: white;
+          font-weight: 100;
         }
       }
     }
