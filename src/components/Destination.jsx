@@ -75,10 +75,12 @@ const Section = styled.section`
     flex: 2;
     display: flex;
     gap: 2rem;
+
     .destination {
       position: relative;
       img {
         height: 20rem;
+        border-radius: 1rem;
       }
       .name {
         position: absolute;
