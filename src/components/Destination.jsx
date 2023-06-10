@@ -87,6 +87,7 @@ const Section = styled.section`
         bottom: 0rem;
         height: 100%;
         width: 100%;
+        padding-bottom: 1rem;
         background: linear-gradient(
           to bottom,
           #ffffff14,
