@@ -26,9 +26,6 @@ export default function Footer() {
             <div className="logo">
               <img src={logo} alt="logo" />
             </div>
-            <p className="desciption">
-              You can dream, create, design, and build the most wonderful place.
-            </p>
           </div>
         </div>
         <div className="col">
