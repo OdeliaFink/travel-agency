@@ -47,8 +47,8 @@ export default function Footer() {
         <div className="col">
           <h2>Newsletter</h2>
           <div className="newsletter">
-            <input type="text" placeholder="Your Email" />
-            <Button text="Subscribe Now" />
+            <input type="text" placeholder="email" />
+            <Button text="subscribe now" />
           </div>
         </div>
       </div>
