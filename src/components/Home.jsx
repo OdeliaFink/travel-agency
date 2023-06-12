@@ -8,7 +8,7 @@ export const Home = () => {
   return (
     <Section>
       <div className="background">
-        <img src={HeroImage} alt="Hero" style={{ opacity: 0.8 }} />
+        <img src={HeroImage} alt="Hero" />
       </div>
       <div className="content">
         <div className="info">
@@ -63,8 +63,9 @@ const Section = styled.section`
       top: 5rem;
       margin-left: 8rem;
       h1 {
-        font-size: 5rem;
+        font-size: 9rem;
         font-family: Helvetica, sans-serif;
+        color: white;
       }
     }
     .planner {
