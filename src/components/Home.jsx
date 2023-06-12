@@ -12,12 +12,8 @@ export const Home = () => {
       </div>
       <div className="content">
         <div className="info">
-          <h1 style={{ letterSpacing: '-7px', color: 'var( --card-grey)' }}>
-            Time To
-          </h1>
-          <h1 style={{ paddingBottom: '2rem', color: 'var(--primary-color)' }}>
-            Explore.
-          </h1>
+          <h1>Time To</h1>
+          <h1>Explore.</h1>
           <Button text="plan your trip" />
         </div>
         <div className="planner">
@@ -68,6 +64,7 @@ const Section = styled.section`
       margin-left: 8rem;
       h1 {
         font-size: 5rem;
+        font-family: Helvetica, sans-serif;
       }
     }
     .planner {
