@@ -12,8 +12,8 @@ export const Home = () => {
       </div>
       <div className="content">
         <div className="info">
-          <h1>Time To</h1>
-          <h1>Explore.</h1>
+          <h1>time to</h1>
+          <h1>explore.</h1>
           <Button text="plan your trip" />
         </div>
         <div className="planner">
