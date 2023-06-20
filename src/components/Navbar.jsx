@@ -10,11 +10,17 @@ export const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const html = document.querySelector('html');
   html.addEventListener('click', (e) => setIsNavOpen(false));
+
+  const handleClick = (event) => {
+    event.preventDefault();
+  };
   return (
     <Container state={isNavOpen ? 1 : 0}>
       <div className="brand">
         {/* <img src={Logo} alt="logo" /> */}
-        <a href="/">bookings</a>
+        <a href="/" onClick={handleClick}>
+          bookings
+        </a>
       </div>
       <div className="toggle">
         {isNavOpen ? (
@@ -67,6 +73,9 @@ const Container = styled.nav`
     cursor: pointer;
     a {
       text-decoration: none;
+    }
+    a:visited {
+      color: black;
     }
   }
   .toggle {
