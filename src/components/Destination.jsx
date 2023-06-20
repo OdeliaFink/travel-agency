@@ -23,7 +23,7 @@ export default function Destinations() {
     <Section id="destination">
       <div className="info">
         <h2>
-          Top <span>Destinations</span> In The World
+          top <span>destinations</span> in the world
         </h2>
         <p>
           It is a long established fact that a reader will be distracted by the
