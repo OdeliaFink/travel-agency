@@ -19,6 +19,7 @@ html {
 
 body {
   margin: auto;
+  overflow-x: hidden;
   margin-top: 4rem;
   display: flex;
   place-items: center;

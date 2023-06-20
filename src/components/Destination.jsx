@@ -4,7 +4,8 @@ import cuba from '../assets/cuba.png';
 import paris from '../assets/paris.png';
 import japan from '../assets/japan.png';
 import Button from './Button';
-export default function Destinations() {
+
+const Destinations = () => {
   const data = [
     {
       name: 'Havana',
@@ -29,7 +30,7 @@ export default function Destinations() {
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout from it.
         </p>
-        <Button text="Discover More" />
+        <Button text="discover more" />
       </div>
 
       <div className="destinations">
@@ -48,11 +49,12 @@ export default function Destinations() {
       </div>
     </Section>
   );
-}
+};
 
 const Section = styled.section`
   display: flex;
   gap: 5rem;
+
   .info {
     flex: 1;
     display: flex;
@@ -119,3 +121,5 @@ const Section = styled.section`
     }
   }
 `;
+
+export default Destinations;

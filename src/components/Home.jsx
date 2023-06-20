@@ -89,6 +89,7 @@ const Section = styled.section`
       right: 0;
       background-color: white;
       padding: 2rem;
+      border: 1px solid black;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
       form {
         display: flex;
