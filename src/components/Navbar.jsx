@@ -62,6 +62,7 @@ const Container = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-inline: 3rem;
   .brand {
     img {
       cursor: pointer;

@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  margin: 0 3rem;
+  margin: auto;
   margin-top: 4rem;
   display: flex;
   place-items: center;

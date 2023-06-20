@@ -56,6 +56,21 @@ const Section = styled.section`
       height: 80vh;
       width: 100%;
     }
+
+    ::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 30%;
+      background: linear-gradient(
+        to top,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 1)
+      );
+      z-index: 2;
+    }
   }
   .content {
     .info {
