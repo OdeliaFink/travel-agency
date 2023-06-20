@@ -21,9 +21,9 @@ export const Home = () => {
             <div className="row">
               <label>Destinations</label>
               <select>
-                <option>Canada</option>
-                <option>Mexico</option>
-                <option>United States of America (USA)</option>
+                <option>canada</option>
+                <option>mexico</option>
+                <option>america</option>
               </select>
             </div>
             <div className="row">
@@ -99,6 +99,7 @@ const Section = styled.section`
           display: flex;
           flex-direction: column;
           text-align: start;
+          font-family: Helvetica, sans-serif;
           label {
             font-size: 0.7rem;
             color: var(--secondary-text);
