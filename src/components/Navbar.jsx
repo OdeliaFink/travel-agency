@@ -17,10 +17,10 @@ export const Navbar = () => {
   return (
     <Container state={isNavOpen ? 1 : 0}>
       <div className="brand">
-        {/* <img src={Logo} alt="logo" /> */}
-        <a href="/" onClick={handleClick}>
-          bookings
-        </a>
+        <img src={Logo} alt="logo" onClick={handleClick} />
+        {/* <a href="/" onClick={handleClick}> */}
+        {/* bookings
+        </a> */}
       </div>
       <div className="toggle">
         {isNavOpen ? (
@@ -71,6 +71,7 @@ const Container = styled.nav`
   margin-inline: 3rem;
   .brand {
     cursor: pointer;
+
     a {
       text-decoration: none;
     }
