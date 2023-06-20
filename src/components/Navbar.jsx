@@ -13,7 +13,8 @@ export const Navbar = () => {
   return (
     <Container state={isNavOpen ? 1 : 0}>
       <div className="brand">
-        <img src={Logo} alt="logo" />
+        {/* <img src={Logo} alt="logo" /> */}
+        <h1>bookings</h1>
       </div>
       <div className="toggle">
         {isNavOpen ? (

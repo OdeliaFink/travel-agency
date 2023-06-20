@@ -7,7 +7,7 @@ import Button from './Button';
 export default function Destinations() {
   const data = [
     {
-      name: 'Cuba City',
+      name: 'Havana',
       image: cuba,
     },
     {
@@ -15,7 +15,7 @@ export default function Destinations() {
       image: paris,
     },
     {
-      name: 'Japan',
+      name: 'Tokyo',
       image: japan,
     },
   ];
@@ -87,6 +87,7 @@ const Section = styled.section`
         bottom: 0rem;
         height: 100%;
         width: 100%;
+        text-align: center;
         padding-bottom: 1rem;
         background: linear-gradient(
           to bottom,
