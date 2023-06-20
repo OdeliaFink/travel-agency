@@ -91,11 +91,16 @@ const Container = styled.nav`
           text-decoration: none;
           color: black;
           cursor: pointer;
-          font-family: Helvetica, sans-serif;
-          font-family: 100;
+          font-family: Montserrat-Thin;
+          background-color: transparent;
+          padding: 20px;
+
           transition: var(--default-transition);
           &:hover {
-            color: var(--primary-color);
+            font-family: Montserrat-Medium;
+            border-radius: 5px;
+            background-color: transparent;
+            padding: 20px;
           }
         }
       }
