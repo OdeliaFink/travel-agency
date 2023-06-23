@@ -125,6 +125,10 @@ const Section = styled.section`
             padding-bottom: 0.3rem;
             font-family: 'Montserrat-Light';
           }
+          input,
+          date {
+            text-transform: uppercase;
+          }
         }
       }
     }
