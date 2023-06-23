@@ -9,7 +9,8 @@ export default function Services() {
     {
       image: service1,
       title: 'choose destination',
-      description: 'Lorem Ipsum is simply dummy text of the printing setting',
+      description:
+        'Lorem Ipsum is simply dummy text of the printing setting. Lorem Ipsum is simply ',
     },
     {
       image: service2,
@@ -68,6 +69,14 @@ const Section = styled.section`
         color: var(--secondary-text);
         font-family: Helvetica, sans-serif;
         font-family: 100;
+        text-align: justify;
+      }
+      p:after {
+        /* this adds an extra invisible line, so any other line is justified */
+        content: '';
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
       }
       img {
         height: 128px;

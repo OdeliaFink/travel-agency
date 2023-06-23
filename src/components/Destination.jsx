@@ -54,6 +54,7 @@ const Destinations = () => {
 const Section = styled.section`
   display: flex;
   gap: 5rem;
+  margin-inline: 5rem;
 
   .info {
     flex: 1;
@@ -74,7 +75,6 @@ const Section = styled.section`
     }
   }
   .destinations {
-    flex: 2;
     display: flex;
     gap: 2rem;
 
