@@ -2,7 +2,7 @@ import React from 'react';
 import Destinations from './components/Destination';
 import DownloadApp from './components/DownloadApp';
 import Footer from './components/Footer';
-import { Home } from './components/Home';
+import Home from './components/Home';
 import { Navbar } from './components/Navbar';
 import Offer from './components/Offer';
 import ScrollToTop from './components/ScrollToTop';
