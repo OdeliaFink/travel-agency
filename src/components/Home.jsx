@@ -21,9 +21,9 @@ export const Home = () => {
             <div className="row">
               <label>Destinations</label>
               <select>
-                <option>canada</option>
-                <option>mexico</option>
-                <option>america</option>
+                <option>Canada</option>
+                <option>Mexico</option>
+                <option>America</option>
               </select>
             </div>
             <div className="row">
