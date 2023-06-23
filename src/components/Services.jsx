@@ -15,17 +15,20 @@ export default function Services() {
     {
       image: service2,
       title: 'explore the place',
-      description: 'Lorem Ipsum is simply dummy text of the printing setting',
+      description:
+        'Lorem Ipsum is simply dummy text of the printing setting. Lorem Ipsum is simply',
     },
     {
       image: service3,
       title: 'start your journey',
-      description: 'Lorem Ipsum is simply dummy text of the printing setting',
+      description:
+        'Lorem Ipsum is simply dummy text of the printing setting. Lorem Ipsum is simply',
     },
     {
       image: service4,
       title: "let's enjoy",
-      description: 'Lorem Ipsum is simply dummy text of the printing setting',
+      description:
+        'Lorem Ipsum is simply dummy text of the printing setting. Lorem Ipsum is simply',
     },
   ];
   return (
@@ -70,6 +73,7 @@ const Section = styled.section`
         font-family: Helvetica, sans-serif;
         font-family: 100;
         text-align: justify;
+        margin-inline: 2rem;
       }
       p:after {
         /* this adds an extra invisible line, so any other line is justified */
