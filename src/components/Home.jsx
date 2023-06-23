@@ -79,7 +79,7 @@ const Section = styled.section`
       margin-left: 8rem;
       h1 {
         font-size: 9rem;
-        font-family: Helvetica, sans-serif;
+        font-family: 'Montserrat-SemiBold';
         color: white;
       }
     }
@@ -100,10 +100,10 @@ const Section = styled.section`
           display: flex;
           flex-direction: column;
           text-align: start;
-          font-family: Helvetica, sans-serif;
+          font-family: 'Montserrat-Medium';
           label {
-            font-size: 0.7rem;
-            color: var(--secondary-text);
+            font-size: 0.9rem;
+            color: black;
           }
           input[type='date']::-webkit-calendar-picker-indicator {
             cursor: pointer;
@@ -123,6 +123,7 @@ const Section = styled.section`
             font-size: 1.1rem;
             border-bottom: 1px solid #f5ebe9;
             padding-bottom: 0.3rem;
+            font-family: 'Montserrat-Light';
           }
         }
       }
