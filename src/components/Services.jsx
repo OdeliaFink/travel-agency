@@ -65,15 +65,14 @@ const Section = styled.section`
       gap: 1rem;
       h3 {
         color: var(--primary-text);
-        font-family: Helvetica, sans-serif;
-        font-family: 100;
+        font-family: 'Montserrat-ExtraLight';
       }
       p {
-        color: var(--secondary-text);
+        color: black;
         font-family: Helvetica, sans-serif;
-        font-family: 100;
         text-align: justify;
         margin-inline: 2rem;
+        font-family: 'Montserrat-Medium';
       }
       p:after {
         /* this adds an extra invisible line, so any other line is justified */
