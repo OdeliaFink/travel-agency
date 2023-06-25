@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import lighthouse from '../assets/lighthouse.jpg';
 import { BiWorld } from 'react-icons/bi';
 import { BsHeadphones, BsPerson } from 'react-icons/bs';
+
 const Offer = () => {
   const data = [
     {
@@ -21,28 +22,27 @@ const Offer = () => {
       color: 'yellow',
     },
   ];
+
   return (
     <Section id="offer">
-      <div className="image">
-        <img src={lighthouse} alt="lighthouse" />
-      </div>
-      <div className="content">
+      <ImageContainer>
+        <Image src={lighthouse} alt="lighthouse" />
+      </ImageContainer>
+      <ContentContainer>
         <div className="title">
           <h1>We are Offering in Total 793 Tours Across the World</h1>
         </div>
         <ul className="list">
-          {data.map(({ text, icon, color }) => {
-            return (
-              <li key={text}>
-                <div className={`icon ${color}`}>{icon}</div>
-                <div className="text">
-                  <h3>{text}</h3>
-                </div>
-              </li>
-            );
-          })}
+          {data.map(({ text, icon, color }) => (
+            <li key={text}>
+              <div className={`icon ${color}`}>{icon}</div>
+              <div className="text">
+                <h3>{text}</h3>
+              </div>
+            </li>
+          ))}
         </ul>
-      </div>
+      </ContentContainer>
     </Section>
   );
 };
@@ -51,78 +51,98 @@ const Section = styled.section`
   margin: 8rem 0;
   display: flex;
   gap: 5rem;
-  .image {
-    img {
-      height: 35rem;
-    }
-  }
-  .content {
-    .title {
-      margin: 2rem 0;
-      h1 {
-        font-size: 3rem;
-      }
-    }
-    .list {
-      list-style-type: none;
-      li {
-        display: flex;
-        align-items: center;
-        gap: 4rem;
-        margin: 4rem 0;
-        .icon {
-          padding: 0.5rem;
-          border-radius: 1rem;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          font-size: 2rem;
-        }
-        .red {
-          background-color: #ff3010aa;
-          color: white;
-        }
-        .green {
-          background-color: #65ce5455;
-          color: #65ce54;
-        }
-        .yellow {
-          background-color: #ffc01e55;
-          color: #ffc01e;
-        }
-        .text {
-          h3 {
-            font-size: 1.5rem;
-          }
-        }
-      }
-    }
-  }
+  margin-inline: 3rem;
+
   @media screen and (min-width: 280px) and (max-width: 1080px) {
     flex-direction: column;
     margin: 5rem 1rem;
     gap: 2rem;
-    .image {
-      img {
-        max-inline-size: 100%;
-        block-size: auto;
+  }
+`;
+
+const ImageContainer = styled.div`
+  position: relative;
+  overflow: hidden;
+`;
+
+const Image = styled.img`
+  height: 35rem;
+  width: 100%;
+  filter: brightness(100%);
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 1)
+    );
+  }
+
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    max-inline-size: 100%;
+    block-size: auto;
+  }
+`;
+
+const ContentContainer = styled.div`
+  .title {
+    margin: 2rem 0;
+    width: 53%;
+
+    h1 {
+      font-size: 3rem;
+
+      @media screen and (min-width: 280px) and (max-width: 1080px) {
+        font-size: 2rem;
+        text-align: center;
       }
     }
-    .content {
-      .title {
-        h1 {
-          font-size: 2rem;
-          text-align: center;
-        }
+  }
+
+  .list {
+    list-style-type: none;
+
+    li {
+      display: flex;
+      align-items: center;
+      gap: 4rem;
+      margin: 4rem 0;
+
+      .icon {
+        padding: 0.5rem;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
       }
-      .list {
-        li {
-          gap: 1rem;
-          margin: 2rem 0;
-          .text {
-            h3 {
-              font-size: 1rem;
-            }
+
+      .red {
+        background-color: #50808e;
+        color: white;
+      }
+
+      .green {
+        background-color: #a3c9a8;
+        color: white;
+      }
+
+      .yellow {
+        background-color: #ddd8c4;
+        color: white;
+      }
+
+      .text {
+        h3 {
+          font-size: 1.5rem;
+
+          @media screen and (min-width: 280px) and (max-width: 1080px) {
+            font-size: 1rem;
           }
         }
       }
