@@ -20,7 +20,7 @@ export default function App() {
       <Destinations />
       <Offer />
       <Tours />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <DownloadApp />
       <Footer />
     </div>

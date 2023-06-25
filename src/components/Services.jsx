@@ -55,7 +55,7 @@ const Section = styled.section`
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     .service {
-      padding: 1.5rem 2rem;
+      padding: 0.5rem;
       text-align: center;
       background-color: var(--card-grey);
       display: flex;
@@ -66,6 +66,7 @@ const Section = styled.section`
       h3 {
         color: var(--primary-text);
         font-family: 'Montserrat-ExtraLight';
+        font-size: 1.4rem;
       }
       p {
         color: black;
@@ -73,17 +74,16 @@ const Section = styled.section`
         text-align: justify;
         margin-inline: 2rem;
         font-family: 'Montserrat-Medium';
+        font-size: 1rem;
       }
       p:after {
-        /* this adds an extra invisible line, so any other line is justified */
         content: '';
         display: inline-block;
         width: 100%;
         vertical-align: top;
       }
       img {
-        height: 128px;
-        width: 128px;
+        height: 5rem;
       }
       transition: var(--default-transition);
       &:hover {
