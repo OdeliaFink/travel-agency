@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import lighthouse from '../assets/lighthouse.png';
 import { BiWorld } from 'react-icons/bi';
 import { BsHeadphones, BsPerson } from 'react-icons/bs';
-export default function Offer() {
+const Offer = () => {
   const data = [
     {
       text: 'Best Travel Guide Always for your Services',
@@ -45,7 +45,7 @@ export default function Offer() {
       </div>
     </Section>
   );
-}
+};
 
 const Section = styled.section`
   margin: 8rem 0;
@@ -129,3 +129,5 @@ const Section = styled.section`
     }
   }
 `;
+
+export default Offer;
