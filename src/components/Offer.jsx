@@ -52,7 +52,7 @@ const Section = styled.section`
   display: flex;
   gap: 5rem;
   margin-inline: 3rem;
-  padding-left: 3rem;
+  padding-left: 6rem;
 
   @media screen and (min-width: 280px) and (max-width: 1080px) {
     flex-direction: column;
