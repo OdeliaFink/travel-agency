@@ -5,8 +5,8 @@ export default function Button({ text }) {
 }
 
 const Btn = styled.button`
-  padding: 0.5rem 1rem;
-  background-color: white;
+  padding: 0.9rem 3rem;
+  background-color: #ddd8c4;
   border-radius: 1rem;
   border: 1px solid black;
   font-size: 0.8rem;
@@ -15,6 +15,6 @@ const Btn = styled.button`
   transition: background-color 0.4s ease, color 0.4s ease;
 
   &:hover {
-    background-color: #b8b8b8;
+    background-color: #84b59f;
   }
 `;
