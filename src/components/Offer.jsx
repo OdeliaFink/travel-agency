@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import lighthouse from '../assets/lighthouse.png';
+import lighthouse from '../assets/lighthouse.jpg';
 import { BiWorld } from 'react-icons/bi';
 import { BsHeadphones, BsPerson } from 'react-icons/bs';
 const Offer = () => {
