@@ -19,7 +19,7 @@ html {
 
 body {
   margin: auto;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   margin-top: 4rem;
   display: flex;
   place-items: center;

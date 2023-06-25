@@ -22,7 +22,7 @@ const Section = styled.section`
   height: 25rem;
   width: 100%;
   margin: 5rem 0;
-  background: linear-gradient(to right, #a6f2f2, #ddf181);
+  background: linear-gradient(to right, #ddd8c4, #f0db88);
   display: flex;
   justify-content: space-between;
   align-items: center;

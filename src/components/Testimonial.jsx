@@ -53,7 +53,6 @@ const Section = styled.section`
     display: flex;
     gap: 4rem;
     .testimonial {
-      margin-top: 4rem;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
       padding: 4rem 3rem;
       height: max-content;
@@ -63,7 +62,7 @@ const Section = styled.section`
       border-top: 0.5rem solid var(--primary-color);
       .title {
         display: flex;
-        gap: 1rem;
+        gap: 5rem;
         justify-content: center;
         align-items: center;
         .image {

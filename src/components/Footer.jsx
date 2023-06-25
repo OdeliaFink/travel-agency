@@ -96,9 +96,9 @@ const Container = styled.footer`
         flex-direction: column;
         gap: 1rem;
         input {
-          padding: 1rem 2rem;
+          padding: 1rem;
           border: none;
-          font-size: 1.1rem;
+          font-size: 1rem;
           color: white;
           cursor: pointer;
           background-color: #f8f8f8;

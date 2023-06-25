@@ -52,6 +52,7 @@ const Section = styled.section`
   display: flex;
   gap: 5rem;
   margin-inline: 3rem;
+  padding-left: 3rem;
 
   @media screen and (min-width: 280px) and (max-width: 1080px) {
     flex-direction: column;
@@ -69,6 +70,7 @@ const Image = styled.img`
   height: 35rem;
   width: 100%;
   filter: brightness(100%);
+  opacity: 0.8;
 
   &::before {
     content: '';

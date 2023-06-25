@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import cuba from '../assets/cuba.png';
 import paris from '../assets/paris.png';
-import japan from '../assets/japan.png';
+import japan from '../assets/japan.jpg';
 import Button from './Button';
 
 const Destinations = () => {
